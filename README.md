@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">
+    📲 📴 <a href="#" alt="site do projeto" target="_blank"> WhatsLab </a> 📲 📴
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Sobre o projeto
 
-## Available Scripts
+   O projeto WhatsLab foi desenvolvido com o intuito de realizar um clone do Whatsapp, mas não é uma aplicação que envia e recebe mensagens de externas, e sim que crie algo que simplesmente mostre novas mensagens, com as funções básicas utilizando o conceito de Minimun Viable Product. Projeto feito com: React.JS e Styled-Components. Trata-se de um aplicativo semelhante ao WhatsApp, Telegram, Messenger.
 
-In the project directory, you can run:
+### Sumário
 
-### `npm start`
+  - [Publicação](#publicação)
+  - [Requisitos do projeto](#requisitos-do-projeto)
+  - [Status do projeto](#status-do-projeto)
+  - [Tecnologias](#tecnologias)  
+  - [Instalação](#instalação)
+  - [Créditos](#créditos)
+<br/><br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Publicação🎨
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projeto WhatsLab publicado na plataforma surge:
 
-### `npm test`
+#### - [Link: WhatsLab](https://earsplitting-cellar.surge.sh/)
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requisitos do projeto
 
-### `npm run build`
+- [X] A página possui dois inputs controlados: um para o nome do usuário e um para a mensagem.
+- [X] Existe um botão de enviar e um espaço para as mensagens enviadas aparecerem.
+- [x] Ao pressionar o botão de enviar, a mensagem enviada aparece na tela .
+- [X] Ao pressionar o botão de enviar, o campo de mensagem é limpo.
+<br/><br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Status do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Em funcionamento
+- Todos os requisitos obrigatórios do projeto, estão funcionando.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tecnologias🛠
 
-### `npm run eject`
+  - [React](https://pt-br.reactjs.org/)  - O react é uma biblioteca Java Scrip para desenvolovimento de interfaces web.
+  - [Styled-components](https://styled-components.com/) - O styled components permite criar uma aplicação baseadas em pequenos componentes, possibilitando o reaproveitamento de código e padronização do layout.
+  - [Axios](https://github.com/axios/axios) - Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quanto no Node. js ou qualquer serviço de API.
+  <br/><br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Instalação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para rodar o projeto na máquina local é necessário a instalação do node js:
+- [NodeJS](https://nodejs.org/en/download/)
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tendo o node js instalado, efetue o comando para instalar as dependências necessários para rodar o projeto localmente:
+```
+npm install 
+```
+<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Pós instalação das dependências, execute o comando necessário para rodar o projeto:
+`npm start`
+<br/>
 
-## Learn More
+Por padrão a aplicação rodará localmente na porta 3000.
+<br/><br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Créditos💻
+ 👋🏽 Entre em contato!
+ <br/>
+* Adriano Brito - https://www.linkedin.com/in/adriano-bt/
